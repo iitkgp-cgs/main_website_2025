@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Upanshu",
+      "position": "governors",
+      "image": "upanshu.png",
+      "socials": ["linkedin", "google-plus"],
+      "socialLinks": [
+        "https://www.linkedin.com/in/upanshu-jain-601b28276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mailto:upanshujpanchori16@gmail.com"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vedanta Hazra",
+      "position": "governors",
+      "image": "vedant.png",
+      "socials": ["linkedin", "google-plus"],
+      "socialLinks": [
+        "https://www.linkedin.com/in/vedanta-hazra",
+        "mailto:vedanta@example.com"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ojas Deshmukh",
+      "position": "advisors",
+      "image": "ojas.png",
+      "socials": ["linkedin", "google-plus"],
+      "socialLinks": [
+        "https://www.linkedin.com/in/ojas-deshmukh",
+        "mailto:ojas@example.com"
+      ]
+    }
+  ]
+  

@@ -1,0 +1,92 @@
+/* Overall Section Styling */
+.team-section {
+    background-color: black;
+    padding: 2rem 0;
+  }
+  
+  .headi {
+    color: rgb(236,72,153);
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  
+  .our-team {
+    background-color: #1a1a1a;
+    border: 2px solid rgb(236,72,153);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .our-team:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    aspect-ratio: 1;
+    border-bottom: 2px solid rgb(236,72,153);
+  }
+  
+  .team-content {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .post {
+    font-size: 1rem;
+    color: rgb(236,72,153);
+  }
+  
+  .social {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .social li a {
+    display: inline-block;
+    background: white;
+    color: rgb(236,72,153);
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .social li a:hover {
+    background: rgb(236,72,153);
+    color: white;
+  }
+  
+  /* Responsive Grid Layout */
+  @media (max-width: 768px) {
+    .members {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .members {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

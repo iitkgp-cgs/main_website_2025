@@ -1,0 +1,18 @@
+{
+  "gameData:":{
+    "actionGames": [
+      { "id": 1, "name": "Game 1", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "https://www.linkedin.com/in/ajitesh-jamulkar-2a5351260/" },
+      { "id": 2, "name": "Game 2", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" },
+      { "id": 3, "name": "Game 3", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" }
+    ],
+    "storyGames": [
+      { "id": 6, "name": "Game 6", "image": "../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" },
+      { "id": 7, "name": "Game 7", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" }
+    ],
+    "puzzleGames": [
+      { "id": 11, "name": "Game 11", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" },
+      { "id": 12, "name": "Game 12", "image": "../../assets/Vansh.png", "creator": "Ajitesh", "linkedin": "" }
+    ]
+  }
+}
+  

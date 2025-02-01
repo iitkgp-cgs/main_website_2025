@@ -1,0 +1,40 @@
+/* 3D Perspective Setup */
+.flip-card {
+    perspective: 1000px; /* Creates the 3D space for the flip effect */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Enables 3D transform */
+    transition: transform 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955); /* Smooth flip */
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Flips the card */
+  }
+  
+  /* Front Face */
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back side while the front is showing */
+    border-radius: 10px; /* Optional rounded corners */
+  }
+  
+  /* Front Face - Initial State */
+  .flip-card-front {
+    z-index: 2;
+    transform: rotateY(0deg); /* The front side is visible initially */
+  }
+  
+  /* Back Face - Flipped State */
+  .flip-card-back {
+    transform: rotateY(180deg); /* The back side is rotated 180deg */
+    z-index: 1;
+    background-color: rgb(236,72,153); /* Ensure it has a background color */
+  }
+  

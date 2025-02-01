@@ -1,0 +1,498 @@
+[
+    {
+        "id": 1,
+        "name": "Pranav Bhujbal",
+        "position": "Content Creation",
+        "image": "https://drive.google.com/open?id=1PwkMDhVn46disx2Znv7Mi-0hBdBA7nfw",
+        "socials": [
+            "linkedin",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/pranavbhujbal",
+            "mailto:ppbhujbal11@gmail.com"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Harshwardhan Walunjkar",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1HnH-qbJkJu5POytxkbi7zBsPkxI_LJFj",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/harshwardhan-walunjkar-93035628b/",
+            "https://github.com/CharasMaster",
+            "https://www.instagram.com/harshuiiuii",
+            "mailto:harshwardhanwada@gmail.com"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Abyan Hussain",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1JsDucGm84F9408a1vfXmnMCgRN4dqnkj",
+        "socials": [
+            "linkedin",
+            "github",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/abyan-hussain-9009b0286/",
+            "https://github.com/Abyan747",
+            "mailto:abyanhussain05@gmail.com"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ayushman Majhi",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1xTfoB3aNx9b8hz4JwRyMEceMFNI0b4tG",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/ayushman-majhi-635941298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/rodeo74",
+            "https://www.instagram.com/ayush.man.exe",
+            "mailto:ayushmandbpc@gmail.com"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Vansh Pali",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1RsGbBypBYWBzEvaem2O20MiK8K2LU6v_",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "www.linkedin.com/in/vansh-pali-47b315287",
+            "https://github.com/VanshPali24",
+            "https://www.instagram.com/vanshpali24",
+            "mailto:vanshrpali905@gmail.com"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Manijith Dameruppala ",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1TOktlmKKfDliTvm5dXZk5lCVn-v_IpRM",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/manijith-dameruppala-239530330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/DameruppalaManijith",
+            "https://www.instagram.com/manijith_0709",
+            "mailto:dameruppalamanijith@kgpian.iitkgp.ac.in"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Shaurya Baranwal",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1EPJ25awBEqYKkqoqn1VkHB1FGRwoIdDm",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/shaurya-baranwal-6a240817b/",
+            "https://github.com/trynottofear",
+            "https://www.instagram.com/shau_ryabaranwal",
+            "mailto:shauryabaranwal1102@gmail.com"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Harsh Verma",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1xfoFqqfKGZq2y7jHYj8GOBw1IHYyNwxm",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "www.linkedin.com/in/harsh-verma-572167287",
+            "https://github.com/realitysynthesizer",
+            "https://www.instagram.com/harshhvermaa_",
+            "mailto:ayush2412200@gmail.com"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Kshitij Agarwal ",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1u-bvioYCT9pMSAcYdxQ9H3BkzFKqSt1A",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "linkedin.com/in/kshitij-agarwal-5361a42a0",
+            "https://github.com/Kanomus",
+            "https://www.instagram.com/https://www.instagram.com/kanomus_37?igsh=emZkY3B2cmF3ZWJ4",
+            "mailto:kshitijagarwal@kgpian.iitkgp.ac.in"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Dhanvith Nayak",
+        "position": "GameDev",
+        "image": "https://drive.google.com/open?id=1ovgXlNYUeP9xQKbYjAyaD-ti3qey0iTw",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/dhanvith-nayak-72a9b9211/",
+            "https://github.com/BAGUVIX456",
+            "https://www.instagram.com/dumb_vith",
+            "mailto:dhanpran3@gmail.com"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Kshetrimayum Abo ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1HkZLZ41MUqk98v0_s51eefobGP1Te9by",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/kshetrimayum-abo-0384a528a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/KshAbo",
+            "https://www.instagram.com/abo_pukra",
+            "mailto:kshabo2004@gmail.com"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Pratyush Parackal ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1etazQ4ll7kYl6UtnD-TTeT6TSOcgSjrk",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/pratyush-parackal-4b7b77287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/mystiboom",
+            "https://www.instagram.com/_pratyush_9082",
+            "mailto:pratyushparackal9@gmail.com"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sudhanshu ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=18kiV-XE8T3IprDcx6hSmjfo_XVwDBKGY",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/sudhanshu-3174a9294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/sudhanshumahar7",
+            "https://www.instagram.com/sudhanshu_mahar",
+            "mailto:sudhanshumahar2401@gmail.com"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Jay Gheewala ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1s63rpLrQaXPINxGO-3wLfpUQsmi9KRd5",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/jay-gheewala-1b886728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://www.instagram.com/jay_gheewala13",
+            "mailto:jaygheewala06@gmail.com"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Adeetya Uppal",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1CYUeckxLrp_8gG_Bn5CJ29s390vhHCtR",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/adeetya-uppal-a552a1290/",
+            "https://github.com/Adeetya13",
+            "https://www.instagram.com/adeeeeeee_1",
+            "mailto:adeetyauppal1@gmail.com"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Adhiraj Singh Brar",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1BYhTMjEsf-a7YEYYh4CiwPNf8ZPvTjGc",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "www.linkedin.com/in/adhiraj-brar-a32aa2289",
+            "https://github.com/AdhirajSB",
+            "https://www.instagram.com/adhirajsb",
+            "mailto:prmoadhiraj2021@gmail.com"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Kartik Kaushal ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1RaHxbPShFi902NeTAziou69xuCZS9WT7",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "Kartik Kaushal ",
+            "https://www.instagram.com/kartik_kaushal_._",
+            "mailto:kartikkaushal131103@gmail.com"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Siddharth Konnur",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1ScNYaJlSKZqufGWMVxSOTuW_PdBB1B2r",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://in.linkedin.com/in/siddharth-konnur-21b0a128b?original_referer=https%3A%2F%2Fwww.google.com%2F",
+            "https://www.instagram.com/sid_konnur",
+            "mailto:sidkonnur29@gmail.com"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Atreya Bordoloi",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1XQEqxYOoYas2Wm-sQYullcANI79-M6Oe",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "http://www.linkedin.com/in/atreya-bordoloi-94279727b",
+            "https://www.instagram.com/https://www.instagram.com/atreya_bordoloi?igsh=MXgxdjhsM2hhZXFtZw==",
+            "mailto:atreyabordoloi@gmail.com"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Satwik Midya",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1fmgwXHdDLWoMoTASlg01v-aVwsDj3YXF",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/satwik-midya-47b618270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://www.instagram.com/iamsatwik_",
+            "mailto:satwikmidya@gmail.com"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Dheeraj Balaji",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1u_a0O57SCc8yYka-hQBaQ-Ajs6DkvETN",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/dheeraj-balaji-12884627b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://www.instagram.com/b.dheeraj.28",
+            "mailto:dheerajbalajibellamkonda@gmail.com"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Zoya Alam",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1fHIJ3LLgZeeZlvHQoJwg4OFdEGSO_eAt",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/zoya-alam-a02914297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/zeemofukaa",
+            "https://www.instagram.com/zeemofukaa_",
+            "mailto:alamzoya2004@gmail.com"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Sri charan Budumuru",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1c5RCWv1MIyF1XabsUfLNpwM7uEl5_yZO",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/sri-charan-budumuru-76bb77330/",
+            "https://www.instagram.com/b_sri_charan",
+            "mailto:bsricharan14@gmail.com"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Ankit Anand",
+        "position": "Public Relations",
+        "image": "https://drive.google.com/open?id=1xYX1yg2e5Z-g66Zjt0rBcI1mm2SyDUaR",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "www.linkedin.com/in/ankit-anand-159442295",
+            "https://www.instagram.com/ankitt.30",
+            "mailto:ankitanand3027@gmail.com"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Kavya Nagar ",
+        "position": "Public Relations",
+        "image": "https://drive.google.com/open?id=1QWsyFaBNjHiSSP5-K_MfR10aa4DoWMmZ",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/kavya-nagar-a8b468288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/Kavyanagar04",
+            "https://www.instagram.com/Kavyanagar04",
+            "mailto:kavyanagar@kgpian.iitkgp.ac.in"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Atharv Salodkar ",
+        "position": "Content Creation",
+        "image": "https://drive.google.com/open?id=1Ng56glWOKn0mC51jU5tNqQfMSn0W5EkZ",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/atharv-salodkar-83963729b",
+            "https://www.instagram.com/atharvsalodkar",
+            "mailto:atharvsalodkar16@gmail.com"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Rishabh Parihar",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1Rs1LxX3RRI6hIEwtBHycUJ9yn9jF3D2k",
+        "socials": [
+            "linkedin",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedIn.com/in/rishabh-parihar-",
+            "https://www.instagram.com/rishabh_parihar139",
+            "mailto:rishabhparihar511@gmail.com"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Jasmeet Singh Chadha ",
+        "position": "Graphics",
+        "image": "https://drive.google.com/open?id=1B2r75vbKLGVzGersaBhd_uZMfHvZ62ug",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/jasmeet-singh-3b8b95282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://github.com/jasmeetsingh28",
+            "https://www.instagram.com/jasmeetsingh_28",
+            "mailto:jasmeetsingh28022005@gmail.com"
+        ]
+    },
+    {
+       "id": 28,
+        "name": "Saketh Akella",
+        "position": "Webdev",
+        "image": "https://drive.usercontent.google.com/download?id=1McGNNhFR5juyDdetpo7SA0SHmewZeCRw&export=view",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/saketh-akella-aa7886270/",
+            "https://github.com/sakethakella",
+            "https://www.instagram.com/thesaketh07",
+            "mailto:sakethakella05@gmail.com"
+        ] 
+    }
+]
