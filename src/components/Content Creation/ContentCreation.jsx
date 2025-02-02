@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Play, Pause, Info } from 'lucide-react';
-import "./ContentPage.css";
+import "./ContentCreation.css";
 
 const videos = [
   { src: "/video1.mp4", thumbnail: "/placeholder.svg?height=180&width=320", title: "Project Alpha", description: "A futuristic 3D animation" },
