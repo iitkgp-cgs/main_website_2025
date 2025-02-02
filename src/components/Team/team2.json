@@ -1,18 +1,5 @@
 [
-    {
-        "id": 1,
-        "name": "Pranav Bhujbal",
-        "position": "Content Creation",
-        "image": "https://drive.google.com/open?id=1PwkMDhVn46disx2Znv7Mi-0hBdBA7nfw",
-        "socials": [
-            "linkedin",
-            "email"
-        ],
-        "socialLinks": [
-            "https://www.linkedin.com/in/pranavbhujbal",
-            "mailto:ppbhujbal11@gmail.com"
-        ]
-    },
+    
     {
         "id": 2,
         "name": "Harshwardhan Walunjkar",
@@ -65,24 +52,7 @@
             "mailto:ayushmandbpc@gmail.com"
         ]
     },
-    {
-        "id": 5,
-        "name": "Vansh Pali",
-        "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1RsGbBypBYWBzEvaem2O20MiK8K2LU6v_",
-        "socials": [
-            "linkedin",
-            "github",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "www.linkedin.com/in/vansh-pali-47b315287",
-            "https://github.com/VanshPali24",
-            "https://www.instagram.com/vanshpali24",
-            "mailto:vanshrpali905@gmail.com"
-        ]
-    },
+    
     {
         "id": 6,
         "name": "Manijith Dameruppala ",
@@ -119,24 +89,7 @@
             "mailto:shauryabaranwal1102@gmail.com"
         ]
     },
-    {
-        "id": 8,
-        "name": "Harsh Verma",
-        "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1xfoFqqfKGZq2y7jHYj8GOBw1IHYyNwxm",
-        "socials": [
-            "linkedin",
-            "github",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "www.linkedin.com/in/harsh-verma-572167287",
-            "https://github.com/realitysynthesizer",
-            "https://www.instagram.com/harshhvermaa_",
-            "mailto:ayush2412200@gmail.com"
-        ]
-    },
+    
     {
         "id": 9,
         "name": "Kshitij Agarwal ",
