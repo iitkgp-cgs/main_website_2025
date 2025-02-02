@@ -27,6 +27,7 @@ const Team = () => {
       description: '',
       details: 'OpenCV: OpenCV (Open Source Computer Vision Library) is a popular open-source library that provides tools for computer vision tasks such as image processing, object detection, and facial recognition.'
     }
+   
   ];
 
   return (
@@ -193,6 +194,55 @@ RayMarching involves using a technique in computer graphics to render complex 3D
           </div>
         </div>
       </section>
+
+
+
+      <section className="bg-black text-white py-10 border-b-2 border-white" id="satellite">
+        <div className="container ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+            <div className="space-y-3 xl:pr-36 p-4 rounded-2xl ">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-once='true'
+                className="text-pink-500 uppercase "
+              >
+                Motion Tracking
+              </p>
+              <h1
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-once='true'
+                className="uppercase text-5xl"
+              >
+               Open CV motion tracking
+              </h1>
+              <p data-aos="fade-up"  data-aos-once='true' className="text-lg m-1" data-aos-delay="700">
+The project focuses on real-time 3D body tracking in Augmented Reality (AR), utilizing motion capture technology to track a user’s body movements, and accurately replicating the movements on a 3D avatar in real time. This enables applications in gaming, fitness, virtual meetings, and training simulations, offering immersive, interactive experiences by mirroring real-world actions in virtual environments.
+              </p>
+              
+            </div>
+            <div data-aos="zoom-in" data-aos-once='true'>
+            <video
+              autoPlay
+              loop
+              muted
+              className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl space-y-3 p-4 "
+                        >
+              <source src="https://res.cloudinary.com/dodlxtpvx/video/upload/v1738504580/RPReplay_Final1730662135_ndi9vm.mp4" type="video/mp4" />
+            </video>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
     </>
   );
 };
