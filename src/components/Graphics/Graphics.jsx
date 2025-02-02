@@ -17,7 +17,7 @@ const Graphics = () => {
 
   const carouselGames = ['https://images.ctfassets.net/7ghyf81o1fuo/89HjoEauCLVwk4ZyKqGEz/e4582e146489c2eabc43c38e5acf08bb/icecream.png', 'https://images.ctfassets.net/7ghyf81o1fuo/573G2hgbJp2FoNSRPE2hiK/23092d333add74a338781e531aee598b/Screenshot_2024-10-07_at_3.00.46_AM.png', 'https://images.ctfassets.net/7ghyf81o1fuo/6zio4ZhDt3dEtWiktLXTCM/87ced42ffc6e78a5ca37bbedbc92a1b0/Screenshot_2024-10-07_at_3.00.29_AM.png','https://images.ctfassets.net/7ghyf81o1fuo/17Lj9q9nWQUf7M47jwo1rN/3134485d8ae4eec3753b7a8036f3f6fc/Screenshot_2024-10-07_at_3.04.57_AM.png'];
 
-  const games = [
+  const graphics = [
     { id: 1, name: 'Sea ', image: 'https://images.ctfassets.net/7ghyf81o1fuo/5xZWORv1h2A1evfxfEAl01/82dcd7f841bba0574cdf0d090ab308fe/pratyush.png'},
     { id: 2, name: 'Whale', image: 'https://images.ctfassets.net/7ghyf81o1fuo/5ETNTaJRmLF8sKVCSusotq/5bf7d9df3f409ef1fbd8b59446f18a12/Whale.png'},
     { id: 3, name: 'Ring', image: 'https://images.ctfassets.net/7ghyf81o1fuo/7EVarOK7aHmPlv2Shk1h27/149659ec21e27e7d8e3394372d437b50/Ring.png'},
@@ -80,7 +80,7 @@ const Graphics = () => {
       <div className="cards-section">
         <h2 className="section-title">Explore Graphics</h2>
         <div className="cards-container">
-          {games.map((game) => (
+          {graphics.map((game) => (
             <div
               key={game.id} 
               className="w-[20vw] h-[20vw] bg-black border-2 border-white rounded-full shadow-lg transition-transform transform hover:scale-105"

@@ -1,20 +1,5 @@
 [
-    {
-        "id": 1,
-        "name": "Atharv Salodkar ",
-        "position": "Content Creation",
-        "image": "https://drive.google.com/open?id=1Ng56glWOKn0mC51jU5tNqQfMSn0W5EkZ",
-        "socials": [
-            "linkedin",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "https://www.linkedin.com/in/atharv-salodkar-83963729b",
-            "https://www.instagram.com/atharvsalodkar",
-            "mailto:atharvsalodkar16@gmail.com"
-        ]
-    },
+    
     {
         "id": 2,
         "name": "Harshwardhan Walunjkar",
@@ -67,24 +52,7 @@
             "mailto:ayushmandbpc@gmail.com"
         ]
     },
-    {
-        "id": 5,
-        "name": "Vansh Pali",
-        "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1RsGbBypBYWBzEvaem2O20MiK8K2LU6v_",
-        "socials": [
-            "linkedin",
-            "github",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "www.linkedin.com/in/vansh-pali-47b315287",
-            "https://github.com/VanshPali24",
-            "https://www.instagram.com/vanshpali24",
-            "mailto:vanshrpali905@gmail.com"
-        ]
-    },
+    
     {
         "id": 6,
         "name": "Manijith Dameruppala ",
@@ -121,24 +89,7 @@
             "mailto:shauryabaranwal1102@gmail.com"
         ]
     },
-    {
-        "id": 8,
-        "name": "Harsh Verma",
-        "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1xfoFqqfKGZq2y7jHYj8GOBw1IHYyNwxm",
-        "socials": [
-            "linkedin",
-            "github",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "www.linkedin.com/in/harsh-verma-572167287",
-            "https://github.com/realitysynthesizer",
-            "https://www.instagram.com/harshhvermaa_",
-            "mailto:ayush2412200@gmail.com"
-        ]
-    },
+    
     {
         "id": 9,
         "name": "Kshitij Agarwal ",
@@ -480,7 +431,7 @@
         ]
     },
     {
-        "id": 28,
+       "id": 28,
         "name": "Saketh Akella",
         "position": "Webdev",
         "image": "https://drive.usercontent.google.com/download?id=1McGNNhFR5juyDdetpo7SA0SHmewZeCRw&export=view",
@@ -495,6 +446,6 @@
             "https://github.com/sakethakella",
             "https://www.instagram.com/thesaketh07",
             "mailto:sakethakella05@gmail.com"
-        ]
+        ] 
     }
 ]
