@@ -116,7 +116,6 @@ const Graphics = () => {
 export default Graphics;
 
 
-import musicVisual from "../../assets/Graphics/musicVisualize.mp4";
 
 import coffee from "../../assets/animation.mp4";
 import feni from "../../assets/animation2.mp4";
@@ -126,7 +125,7 @@ const graphics = [
   {
     id: 1,
     name: 'Music Visualizer',
-    video: musicVisual,
+    video: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738519774/musicVisualize_dr0eom.mp4",
     creators: ['Kartik Kaushal', 'Rishabh Parihar', 'Kshetrimayum Abo'],
     linkedin: [
       'https://www.linkedin.com/in/kartik-kaushal-5b4992293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -167,7 +166,7 @@ const graphics = [
   {
     Id: 4,
     name: 'Product Advertisement ',
-    video: coffee,
+    video: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738519970/coffee_gbfrrg.mov",
     creators: ['Jay Gheewala', 'Adhiraj Singh Brar', 'Pratyush Parackal','Zoya Alam','Jasmeet Singh', 'Aryan Dongre', 'Vishal Bagada'],
     linkedin: [
       'https://www.linkedin.com/in/jay-gheewala-1b886728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -185,7 +184,7 @@ const graphics = [
   {
     id: 5,
     name: ' product add',
-    video: feni,
+    video: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738519966/product_degzwt.mov",
     creators: ['Adeetya Uppal', 'Satwik Midya', 'Shriya Sinha','Siddharth Konnur'],
     linkedin: [
       'https://www.linkedin.com/in/adeetya-uppal-a552a1290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
