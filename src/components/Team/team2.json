@@ -19,9 +19,9 @@
     },
     {
         "id": 2,
-        "name": "Harshwardhan Walunjkar",
-        "position": "GameDev",
-        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/1693734134700_-_Harshwardhan_Walunjkar_cs69tp.jpg",
+        "name": "Saketh Akella",
+        "position": "Webdev",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516176/My_image_fvubji.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -29,11 +29,12 @@
             "email"
         ],
         "socialLinks": [
-            "https://www.linkedin.com/in/harshwardhan-walunjkar-93035628b/",
-            "https://github.com/CharasMaster",
-            "https://www.instagram.com/harshuiiuii",
-            "mailto:harshwardhanwada@gmail.com"
-        ]
+            "https://www.linkedin.com/in/saketh-akella-aa7886270/",
+            "https://github.com/sakethakella",
+            "https://www.instagram.com/thesaketh07",
+            "mailto:sakethakella05@gmail.com"
+        ] 
+        
     },
     {
         "id": 3,
@@ -449,9 +450,9 @@
     },
     {
        "id": 29,
-        "name": "Saketh Akella",
-        "position": "Webdev",
-        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516176/My_image_fvubji.jpg",
+       "name": "Harshwardhan Walunjkar",
+        "position": "GameDev",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/1693734134700_-_Harshwardhan_Walunjkar_cs69tp.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -459,10 +460,11 @@
             "email"
         ],
         "socialLinks": [
-            "https://www.linkedin.com/in/saketh-akella-aa7886270/",
-            "https://github.com/sakethakella",
-            "https://www.instagram.com/thesaketh07",
-            "mailto:sakethakella05@gmail.com"
-        ] 
+            "https://www.linkedin.com/in/harshwardhan-walunjkar-93035628b/",
+            "https://github.com/CharasMaster",
+            "https://www.instagram.com/harshuiiuii",
+            "mailto:harshwardhanwada@gmail.com"
+        ]
     }
 ]
+

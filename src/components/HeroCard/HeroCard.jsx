@@ -90,7 +90,7 @@ const ServiceData = [
     description:
       "We're at the forefront of game technology, researching advanced shaders, AI, and machine learning to pioneer innovative visual effects and AI-driven gameplay mechanics.",
     icon: <FaSpaceAwesome className="text-7xl text-white" />,
-    route:"Reseach"
+    route:"Research"
   },
 ];
 

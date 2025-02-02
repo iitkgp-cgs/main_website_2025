@@ -4,6 +4,9 @@ import featuredAnimation from "../../assets/animation.mp4";
 import featuredAnimation2 from "../../assets/animation2.mp4";
 
 const Satellite = () => {
+  const handleNavigation = (route) => {
+    window.location.href = `/${route}`;
+  };
   return (
     <>
       {/* Featured Game Section */}
@@ -28,6 +31,7 @@ const Satellite = () => {
                 data-aos="fade-up"
                 data-aos-delay="900"
                 data-aos-once="true"
+                onClick={() => handleNavigation("Gamedev")}
                 className="bg-gradient-to-r from-pink-500 to-pink-700 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition duration-300"
               >
                 Play Game...
@@ -64,6 +68,7 @@ const Satellite = () => {
                 data-aos="fade-up"
                 data-aos-delay="900"
                 data-aos-once="true"
+                onClick={() => handleNavigation("Graphics")}
                 className="bg-gradient-to-r from-pink-500 to-pink-700 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition duration-300"
               >
                 Play Animations...
@@ -100,6 +105,7 @@ const Satellite = () => {
                 data-aos="fade-up"
                 data-aos-delay="900"
                 data-aos-once="true"
+                onClick={() => handleNavigation("Graphics")}
                 className="bg-gradient-to-r from-pink-500 to-pink-700 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition duration-300"
               >
                 Play Animations...

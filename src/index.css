@@ -9,3 +9,42 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* Tailwind Utility classes adjustments for responsiveness */
+@media (max-width: 1024px) {
+    /* Mobile View */
+    .lg\\:hidden {
+      display: block !important; /* Make sure mobile menu is visible on small screens */
+    }
+  
+    .lg\\:flex {
+      display: none !important; /* Hide desktop menu on mobile */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    /* Desktop View */
+    .lg\\:hidden {
+      display: none !important; /* Hide mobile menu on desktop */
+    }
+  
+    .lg\\:flex {
+      display: flex !important; /* Show desktop menu on large screens */
+    }
+  }
+  
+  /* Adjust the container padding for mobile */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  /* Add smooth transition for mobile menu */
+  @media (max-width: 1024px) {
+    .mobile-menu {
+      transition: transform 0.3s ease-out;
+    }
+  }
+  

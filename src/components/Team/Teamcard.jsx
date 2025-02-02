@@ -1,8 +1,7 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt'; // Importing react-tilt for 3D effect
 import './team.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+ 
 
 
 const Teamcard = ({ name, position, social, mail,  image }) => {
@@ -61,3 +60,5 @@ const Teamcard = ({ name, position, social, mail,  image }) => {
 };
 
 export default Teamcard;
+ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
