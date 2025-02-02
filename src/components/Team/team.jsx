@@ -512,7 +512,7 @@ const Team = () => {
       {id: 7,
       name: "Krishna Paikine ",
       position: "Content Creation Head",
-      image: "https://images.ctfassets.net/7ghyf81o1fuo/2715Ccq5Jw00UMi26MzPxW/3cae4d0f911fe005361800c8f540198c/Krishna.png",
+      image: "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738502048/PHOTO-2025-02-02-18-43-52_a7vveh.jpg",
       socials: [ "http://www.linkedin.com/in/krishnapaikine/", "mailto:krishnapaikine777@gmail.com"]},
         
       {id: 9,
@@ -809,7 +809,7 @@ const Team = () => {
   const cc =[
     {    
       id: 14,
-      name: "Pranav Bhujbal",
+      name: "Atharv Deshmukh",
       position: "Content Creation",
       image: "https://drive.google.com/open?id=1PwkMDhVn46disx2Znv7Mi-0hBdBA7nfw",
       socials: [
