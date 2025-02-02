@@ -161,26 +161,25 @@ const Organisation = () => {
           >
             {/* Image Section - Smaller Height */}
             <div
-              className="relative w-full h-[220px] md:h-[260px] rounded-lg overflow-hidden border-2 border-white shadow-md"
+              className="relative w-full h-[180px] md:h-[260px] lg:h-[300px] rounded-lg overflow-hidden border-2 border-white shadow-md"
               data-aos="zoom-in"
             >
               <img
                 src={section.image}
                 alt={section.title}
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                
               />
             </div>
 
             {/* Text Section - Bigger Text, Same Compact Design */}
             <div
-              className="w-full h-[220px] md:h-[260px] flex flex-col justify-center p-6 bg-black/80 rounded-lg border-2 border-pink-500 shadow-md space-y-3"
+              className="w-full h-auto md:h-[260px] flex flex-col justify-center p-6 bg-black/80 rounded-lg border-2 border-pink-500 shadow-md space-y-3"
               data-aos="fade-up"
             >
-              <h2 className="text-xl md:text-2xl text-pink-500 font-bold uppercase">
+              <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-500 font-bold uppercase">
                 {section.title}
               </h2>
-              <p className="text-sm md:text-base text-gray-300 leading-relaxed flex-grow">
+              <p className="text-sm md:text-base lg:text-lg text-gray-300 leading-relaxed flex-grow">
                 {section.description}
               </p>
               <button
