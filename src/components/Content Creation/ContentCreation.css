@@ -2,9 +2,11 @@
 
 :root {
   --primary-color: #ff69b4;
-  --background-color: #1a1a1a;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
   --text-color: #ffffff;
   --accent-color: #4a4a4a;
+  --hover-color: #2c2c2c;
 }
 
 body {
@@ -13,6 +15,12 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
+}
+
+#__next {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
 }
 
 .content-page {
@@ -27,16 +35,47 @@ body {
 }
 
 .header {
-  margin-bottom: 3rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
+.description {
+  font-size: 1.25rem;
+  color: #a0aec0;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 .title {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: var(--primary-color);
-  text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  background: linear-gradient(45deg, var(--primary-color), #9f7aea, #4299e1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, rgba(255, 105, 180, 0.15), rgba(159, 122, 234, 0.15), rgba(66, 153, 225, 0.15));
+  border-radius: 8px;
+  z-index: -1;
 }
 
 .description {
@@ -49,17 +88,26 @@ body {
 .main-video-container {
   position: relative;
   aspect-ratio: 16 / 9;
-  width: 100%;
-  background-color: black;
+  width: 75%;
+  height: 600px;
+  margin-left: 160px;
+  background-color: var(--surface-color);
   border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-video-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(255, 105, 180, 0.2);
 }
 
 .main-video {
   width: 100%;
-  height: 100%;
+  height: 600px;
+  margin-left: 0px;
   object-fit: cover;
   cursor: pointer;
 }
@@ -68,12 +116,23 @@ body {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
+  right: 1rem;
   display: flex;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.main-video-container:hover .video-controls {
+  opacity: 1;
 }
 
 .control-button {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 50%;
   width: 3rem;
@@ -86,7 +145,7 @@ body {
 }
 
 .control-button:hover {
-  background-color: rgba(255, 105, 180, 0.8);
+  background-color: var(--primary-color);
   transform: scale(1.1);
 }
 
@@ -99,11 +158,13 @@ body {
 .video-info {
   position: absolute;
   top: 1rem;
+  left: 1rem;
   right: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   border-radius: 0.5rem;
-  max-width: 300px;
+  backdrop-filter: blur(5px);
+  transition: opacity 0.3s ease;
 }
 
 .video-info h2 {
@@ -120,6 +181,11 @@ body {
 .carousel-container {
   position: relative;
   margin-bottom: 4rem;
+  background-color: var(--surface-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 60%;
+  margin-left: 280px;
 }
 
 .nav-button {
@@ -127,7 +193,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 50%;
   width: 3rem;
@@ -140,7 +206,7 @@ body {
 }
 
 .nav-button:hover {
-  background-color: rgba(255, 105, 180, 0.8);
+  background-color: var(--primary-color);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -151,7 +217,10 @@ body {
 
 .nav-button.prev {
   left: -1.5rem;
+
 }
+
+
 
 .nav-button.next {
   right: -1.5rem;
@@ -300,4 +369,3 @@ body {
     max-width: 100%;
   }
 }
-
