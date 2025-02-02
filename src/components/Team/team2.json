@@ -1,10 +1,27 @@
-[
-    
+[   
+    {
+        "id": 1,
+        "name": "Himesh Kundal",
+        "position": "GameDev",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738507278/me_edpcvc.jpg",
+        "socials": [
+            "linkedin",
+            "github",
+            "instagram",
+            "email"
+        ],
+        "socialLinks": [
+            "https://www.linkedin.com/in/himesh-kundal-140059287/",
+            "https://github.com/Himesh-Kundal",
+            "https://www.instagram.com/himesh_kundal/",
+            "mailto:himesh.kundal@gmail.com"
+        ]
+    },
     {
         "id": 2,
         "name": "Harshwardhan Walunjkar",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1HnH-qbJkJu5POytxkbi7zBsPkxI_LJFj",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/1693734134700_-_Harshwardhan_Walunjkar_cs69tp.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -22,7 +39,7 @@
         "id": 3,
         "name": "Abyan Hussain",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1JsDucGm84F9408a1vfXmnMCgRN4dqnkj",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506925/Myphoto_-_ABYAN_HUSSAIN_ogsr5x.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -38,7 +55,7 @@
         "id": 4,
         "name": "Ayushman Majhi",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1xTfoB3aNx9b8hz4JwRyMEceMFNI0b4tG",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506928/Screenshot_2024-09-30-12-51-01-27_92460851df6f172a4592fca41cc2d2e6_-_Ayushman_Majhi_vwphkx.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -57,7 +74,7 @@
         "id": 6,
         "name": "Manijith Dameruppala ",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1TOktlmKKfDliTvm5dXZk5lCVn-v_IpRM",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/Screenshot_2024-09-30-18-17-24-57_6012fa4d4ddec268fc5c7112cbb265e7_-_Manijith_Dameruppala_hvqvns.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -75,7 +92,7 @@
         "id": 7,
         "name": "Shaurya Baranwal",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1EPJ25awBEqYKkqoqn1VkHB1FGRwoIdDm",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506923/WhatsApp_Image_2024-09-28_at_21.48.36_f8d79b7b_-_Shaurya_Baranwal_gm44fl.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -94,7 +111,7 @@
         "id": 9,
         "name": "Kshitij Agarwal ",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1u-bvioYCT9pMSAcYdxQ9H3BkzFKqSt1A",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/IMG_20240618_231651_-_Kyro_fj0km5.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -112,7 +129,7 @@
         "id": 10,
         "name": "Dhanvith Nayak",
         "position": "GameDev",
-        "image": "https://drive.google.com/open?id=1ovgXlNYUeP9xQKbYjAyaD-ti3qey0iTw",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506930/IMG_3035_-_Dhanvith_Nayak_habyos.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -130,7 +147,7 @@
         "id": 11,
         "name": "Kshetrimayum Abo ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1HkZLZ41MUqk98v0_s51eefobGP1Te9by",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506930/PXL_20231019_212804265.PORTRAIT_-_Kshetrimayum_Abo_nxjexb.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -148,7 +165,7 @@
         "id": 12,
         "name": "Pratyush Parackal ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1etazQ4ll7kYl6UtnD-TTeT6TSOcgSjrk",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516540/Y19jcm9wLHdfMjUwMCxoXzI1MDAsZ19hdXRv_x7dbq5.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -166,7 +183,7 @@
         "id": 13,
         "name": "Sudhanshu ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=18kiV-XE8T3IprDcx6hSmjfo_XVwDBKGY",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506923/Sudhanshu_picture_-_Sudhanshu_qwsniy.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -184,7 +201,7 @@
         "id": 14,
         "name": "Jay Gheewala ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1s63rpLrQaXPINxGO-3wLfpUQsmi9KRd5",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506924/Screenshot_20240930-141023_Photos_-_Jay_Gheewala_qmykpc.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -200,7 +217,7 @@
         "id": 15,
         "name": "Adeetya Uppal",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1CYUeckxLrp_8gG_Bn5CJ29s390vhHCtR",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506924/Literally_Me_-_Adeetya_Uppal_dcwzfp.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -218,7 +235,7 @@
         "id": 16,
         "name": "Adhiraj Singh Brar",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1BYhTMjEsf-a7YEYYh4CiwPNf8ZPvTjGc",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506925/photo_2024-09-30_21.05.31-2_-_Adhiraj_Singh_a2iuzi.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -236,7 +253,7 @@
         "id": 17,
         "name": "Kartik Kaushal ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1RaHxbPShFi902NeTAziou69xuCZS9WT7",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506928/20240715_170819_2_-_Kartik_Kaushal_bu2cw5.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -252,7 +269,7 @@
         "id": 18,
         "name": "Siddharth Konnur",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1ScNYaJlSKZqufGWMVxSOTuW_PdBB1B2r",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/IMG_20240626_174232-1_-_Siddharth_Konnur_vfr3k0.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -268,7 +285,7 @@
         "id": 19,
         "name": "Atreya Bordoloi",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1XQEqxYOoYas2Wm-sQYullcANI79-M6Oe",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506922/WhatsApp_Image_2024-08-14_at_19.12.51_5a23211d_-_Atreya_Bordoloi_spiukj.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -284,7 +301,7 @@
         "id": 20,
         "name": "Satwik Midya",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1fmgwXHdDLWoMoTASlg01v-aVwsDj3YXF",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/IMG_20240518_112928_477_-_Satwik_Midya_gycsay.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -300,7 +317,7 @@
         "id": 21,
         "name": "Dheeraj Balaji",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1u_a0O57SCc8yYka-hQBaQ-Ajs6DkvETN",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506926/IMG_20241005_104328_-_Dheeraj_B_iksjvy.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -316,7 +333,7 @@
         "id": 22,
         "name": "Zoya Alam",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1fHIJ3LLgZeeZlvHQoJwg4OFdEGSO_eAt",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506925/photo_-_Zoya_Alam_tzjfnz.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -334,7 +351,7 @@
         "id": 23,
         "name": "Sri charan Budumuru",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1c5RCWv1MIyF1XabsUfLNpwM7uEl5_yZO",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506925/IMG_20241002_152618_-_Sri_Charan_pgylfx.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -350,7 +367,7 @@
         "id": 24,
         "name": "Ankit Anand",
         "position": "Public Relations",
-        "image": "https://drive.google.com/open?id=1xYX1yg2e5Z-g66Zjt0rBcI1mm2SyDUaR",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506922/WhatsApp_Image_2024-09-30_at_00.41.11_-_Ankit_Anand_djfveq.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -366,7 +383,7 @@
         "id": 25,
         "name": "Kavya Nagar ",
         "position": "Public Relations",
-        "image": "https://drive.google.com/open?id=1QWsyFaBNjHiSSP5-K_MfR10aa4DoWMmZ",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506923/Untitled_design_1_-_Kavya_Nagar_jvidqi.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -384,7 +401,7 @@
         "id": 26,
         "name": "Atharv Salodkar ",
         "position": "Content Creation",
-        "image": "https://drive.google.com/open?id=1Ng56glWOKn0mC51jU5tNqQfMSn0W5EkZ",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506928/20231230_095557_-_Atharv_Salodkar_b5unsn.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -400,7 +417,7 @@
         "id": 27,
         "name": "Rishabh Parihar",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1Rs1LxX3RRI6hIEwtBHycUJ9yn9jF3D2k",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516675/Y19jcm9wLHdfNjM0LGhfNjM0LGdfYXV0bw_hkcuih.jpg",
         "socials": [
             "linkedin",
             "instagram",
@@ -416,7 +433,7 @@
         "id": 28,
         "name": "Jasmeet Singh Chadha ",
         "position": "Graphics",
-        "image": "https://drive.google.com/open?id=1B2r75vbKLGVzGersaBhd_uZMfHvZ62ug",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506928/PROFILE_-_Jasmeet_Singh_t67zxk.jpg",
         "socials": [
             "linkedin",
             "github",
@@ -431,10 +448,10 @@
         ]
     },
     {
-       "id": 28,
+       "id": 29,
         "name": "Saketh Akella",
         "position": "Webdev",
-        "image": "https://drive.usercontent.google.com/download?id=1McGNNhFR5juyDdetpo7SA0SHmewZeCRw&export=view",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516176/My_image_fvubji.jpg",
         "socials": [
             "linkedin",
             "github",
