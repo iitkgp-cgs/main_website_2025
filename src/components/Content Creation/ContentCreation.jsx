@@ -1,19 +1,22 @@
 import { useState, useRef, useEffect } from "react"
 import { ChevronLeft, ChevronRight, Play, Pause, Info } from "lucide-react"
-import "./ContentCreation.css";
+import "./ContentCreation.css"
+import { AnimatedBackground } from "./AnimatedBackground"
+import { AnimatedPortfolioSteps } from "./AnimatedPortfolioSteps"
 
 const videos = [
   {
     src: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738486664/cgs_iitkgp__2024-08-02T213019.000Z_anllxp.mp4",
-    thumbnail: "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738487095/Screenshot_2025-02-02_at_2.34.44_PM_mpvrlv.png",
+    thumbnail:
+      "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738487095/Screenshot_2025-02-02_at_2.34.44_PM_mpvrlv.png",
     title: "Project Alpha",
-    description: "A futuristic 3D animation",
+    description: "Introduction to the society and its activities",
   },
   {
     src: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738486664/cgs_iitkgp__2024-07-09T093835.000Z_ribu5g.mp4",
     thumbnail: "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738487525/SCR-20250202-nbdc_owchti.jpg",
     title: "Neon Nights",
-    description: "Cyberpunk-inspired short film",
+    description: "Project Collaboration of Game Development and Graphic Design",
   },
 ]
 
@@ -68,96 +71,80 @@ const ContentPage = () => {
   }, [])
 
   return (
-      <div className="content-page" style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
-
-      <div className="container">
-        <div className="header">
-          <h1 className="title">Content Creation </h1>
-          <p className="description">Dive into our world of visual storytelling, where creativity meets technology.</p>
-        </div>
-
-        <div className="main-video-container">
-          <video ref={mainVideoRef} className="main-video" onClick={togglePlayPause}>
-            <source src={videos[currentIndex].src} type="video/mp4" />
-            <div className="gradient-fallback">No Video Available</div>
-          </video>
-          <div className="video-controls">
-            <button onClick={togglePlayPause} className="control-button">
-              {isPlaying ? <Pause className="icon" /> : <Play className="icon" />}
-            </button>
-            <button onClick={toggleInfo} className="control-button">
-              <Info className="icon" />
-            </button>
+    <div className="content-page" style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
+      <AnimatedBackground />
+      <div className="content-wrapper">
+        <div className="container">
+          <div className="header">
+            <h1 className="title">Content Creation </h1>
+            <p className="description">
+              Dive into our world of visual storytelling, where creativity meets technology.
+            </p>
           </div>
-          {showInfo && (
-            <div className="video-info">
-              <h2>{videos[currentIndex].title}</h2>
-              <p>{videos[currentIndex].description}</p>
+
+          <div className="main-video-container">
+            <video ref={mainVideoRef} className="main-video" onClick={togglePlayPause}>
+              <source src={videos[currentIndex].src} type="video/mp4" />
+              <div className="gradient-fallback">No Video Available</div>
+            </video>
+            <div className="video-controls">
+              <button onClick={togglePlayPause} className="control-button">
+                {isPlaying ? <Pause className="icon" /> : <Play className="icon" />}
+              </button>
+              <button onClick={toggleInfo} className="control-button">
+                <Info className="icon" />
+              </button>
             </div>
-          )}
-        </div>
+            {showInfo && (
+              <div className="video-info">
+                <h2>{videos[currentIndex].title}</h2>
+                <p>{videos[currentIndex].description}</p>
+              </div>
+            )}
+          </div>
 
-        <div className="carousel-container">
-          <button onClick={() => navigateThumbnails("prev")} disabled={currentIndex === 0} className="nav-button prev">
-            <ChevronLeft className="icon" />
-          </button>
-
-          <div className="thumbnails-wrapper">
-            <div
-              ref={thumbnailsRef}
-              className="thumbnails"
-              style={{
-                transform: `translateX(-${currentIndex * (200 + 16)}px)`,
-              }}
+          <div className="carousel-container modern-carousel">
+            <button
+              onClick={() => navigateThumbnails("prev")}
+              disabled={currentIndex === 0}
+              className="nav-button prev"
             >
-              {videos.map((video, index) => (
-                <button
-                  key={index}
-                  onClick={() => loadVideo(index)}
-                  className={`thumbnail ${index === currentIndex ? "active" : ""}`}
-                >
-                  <img src={video.thumbnail || "/placeholder.svg"} alt={`Thumbnail ${index + 1}`} />
-                  <div className="thumbnail-overlay">
-                    <h3>{video.title}</h3>
-                  </div>
-                </button>
-              ))}
+              <ChevronLeft className="icon" />
+            </button>
+
+            <div className="thumbnails-wrapper">
+              <div
+                ref={thumbnailsRef}
+                className="thumbnails"
+                style={{
+                  transform: `translateX(-${currentIndex * (200 + 16)}px)`,
+                }}
+              >
+                {videos.map((video, index) => (
+                  <button
+                    key={index}
+                    onClick={() => loadVideo(index)}
+                    className={`thumbnail ${index === currentIndex ? "active" : ""}`}
+                  >
+                    <img src={video.thumbnail || "/placeholder.svg"} alt={`Thumbnail ${index + 1}`} />
+                    <div className="thumbnail-overlay">
+                      <h3>{video.title}</h3>
+                    </div>
+                  </button>
+                ))}
+              </div>
             </div>
+
+            <button
+              onClick={() => navigateThumbnails("next")}
+              disabled={currentIndex === videos.length - 1}
+              className="nav-button next"
+            >
+              <ChevronRight className="icon" />
+            </button>
           </div>
 
-          <button
-            onClick={() => navigateThumbnails("next")}
-            disabled={currentIndex === videos.length - 1}
-            className="nav-button next"
-          >
-            <ChevronRight className="icon" />
-          </button>
-        </div>
-
-        <div className="portfolio-info">
-          <h2>Our Creative Process</h2>
-          <div className="process-steps">
-            <div className="step">
-              <div className="step-icon">💡</div>
-              <h3>Ideation</h3>
-              <p>Brainstorming and conceptualizing unique visual stories</p>
-            </div>
-            <div className="step">
-              <div className="step-icon">🎨</div>
-              <h3>Design</h3>
-              <p>Crafting stunning visuals and storyboards</p>
-            </div>
-            <div className="step">
-              <div className="step-icon">🎬</div>
-              <h3>Production</h3>
-              <p>Bringing ideas to life with cutting-edge technology</p>
-            </div>
-            <div className="step">
-              <div className="step-icon">✨</div>
-              <h3>Polish</h3>
-              <p>Refining and perfecting every detail</p>
-            </div>
-          </div>
+          <AnimatedPortfolioSteps />
         </div>
       </div>
     </div>

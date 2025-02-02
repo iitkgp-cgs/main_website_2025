@@ -1,16 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Pranav Bhujbal",
+        "name": "Atharv Salodkar ",
         "position": "Content Creation",
-        "image": "https://drive.google.com/open?id=1PwkMDhVn46disx2Znv7Mi-0hBdBA7nfw",
+        "image": "https://drive.google.com/open?id=1Ng56glWOKn0mC51jU5tNqQfMSn0W5EkZ",
         "socials": [
             "linkedin",
+            "instagram",
             "email"
         ],
         "socialLinks": [
-            "https://www.linkedin.com/in/pranavbhujbal",
-            "mailto:ppbhujbal11@gmail.com"
+            "https://www.linkedin.com/in/atharv-salodkar-83963729b",
+            "https://www.instagram.com/atharvsalodkar",
+            "mailto:atharvsalodkar16@gmail.com"
         ]
     },
     {
@@ -478,7 +480,7 @@
         ]
     },
     {
-       "id": 28,
+        "id": 28,
         "name": "Saketh Akella",
         "position": "Webdev",
         "image": "https://drive.usercontent.google.com/download?id=1McGNNhFR5juyDdetpo7SA0SHmewZeCRw&export=view",
@@ -493,6 +495,6 @@
             "https://github.com/sakethakella",
             "https://www.instagram.com/thesaketh07",
             "mailto:sakethakella05@gmail.com"
-        ] 
+        ]
     }
 ]
