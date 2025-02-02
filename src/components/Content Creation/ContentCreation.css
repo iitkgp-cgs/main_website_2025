@@ -496,3 +496,21 @@ body {
   box-shadow: 0 0 15px 3px rgba(66, 153, 225, 0.5);
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .main-video-container {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .main-video {
+    height: 200px;
+     margin-top: 20px; /* Adjust the height as needed */
+  }
+
+  .carousel-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
