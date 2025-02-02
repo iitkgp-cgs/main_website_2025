@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Play, Pause, Info } from "lucide-react"
 import "./ContentCreation.css"
 import { AnimatedBackground } from "./AnimatedBackground"
 import { AnimatedPortfolioSteps } from "./AnimatedPortfolioSteps"
+import MouseParticles from 'react-mouse-particles';
 
 const videos = [
   {
@@ -20,12 +21,46 @@ const videos = [
   },
 ]
 
+const generateShapes = () => {
+  const shapes = [];
+  const shapeTypes = ['star', 'circle', 'triangle', 'planet', 'moon'];
+  const colors = ['#9f7aea', '#4299e1', '#f5f5f5', '#e0e0e0'];
+
+  for (let i = 0; i < 60; i++) {
+    const shapeType = shapeTypes[Math.floor(Math.random() * shapeTypes.length)];
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    const size = Math.floor(Math.random() * 30) + 10;
+    const top = Math.floor(Math.random() * 100); // Use percentage to cover the entire page
+    const left = Math.floor(Math.random() * 100); // Use percentage to cover the entire page
+
+    shapes.push(
+      <div
+        key={i}
+        className={`shape ${shapeType}`}
+        style={{
+          width: `${size}px`,
+          height: `${size}px`,
+          top: `${top}%`, // Use percentage for better responsiveness
+          left: `${left}%`, // Use percentage for better responsiveness
+          background: `linear-gradient(45deg, ${color}, ${color})`,
+          animation: 'move 3s infinite alternate',
+          zIndex: 0,
+        }}
+      ></div>
+    );
+  }
+
+  return shapes;
+};
+
 const ContentPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(false)
   const [showInfo, setShowInfo] = useState(false)
   const mainVideoRef = useRef(null)
   const thumbnailsRef = useRef(null)
+    const trailRef = useRef([]);
+
 
   useEffect(() => {
     const video = mainVideoRef.current
@@ -70,9 +105,19 @@ const ContentPage = () => {
     document.documentElement.classList.add("dark")
   }, [])
 
+  
+
+
   return (
     <div className="content-page" style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
-      <AnimatedBackground />
+      <MouseParticles
+        g={1}
+        color="random"
+        cull="MuiSvgIcon-root,MuiButton-root"
+        level={6}
+      />
+      <div className="shapes-container">{generateShapes()}
+
       <div className="content-wrapper">
         <div className="container">
           <div className="header">
@@ -100,6 +145,8 @@ const ContentPage = () => {
                 <h2>{videos[currentIndex].title}</h2>
                 <p>{videos[currentIndex].description}</p>
               </div>
+              
+              
             )}
           </div>
 
@@ -147,7 +194,8 @@ const ContentPage = () => {
           <AnimatedPortfolioSteps />
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   )
 }
 
