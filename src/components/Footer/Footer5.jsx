@@ -37,8 +37,10 @@ const Footer = () => {
                   <li className="cursor-pointer"><a href='/'>Home</a></li>
                   <li className="cursor-pointer"><a href='/GameDev' >Game development</a></li>
                   <li className="cursor-pointer"><a href='/Graphics'>Graphics</a></li>
-                  <li className="cursor-pointer">Team</li>
-                  <li className="cursor-pointer">Research</li>
+                  <li className="cursor-pointer"><a href='/Team'>Team</a></li>
+                  <li className="cursor-pointer"><a href='/Research'>Research</a></li>
+                  <li className="cursor-pointer"><a href='/ContentCreation'>Content</a></li>
+                  
                 </ul>
               </div>
             </div>

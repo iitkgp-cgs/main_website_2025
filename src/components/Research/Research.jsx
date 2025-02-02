@@ -31,7 +31,7 @@ const Team = () => {
   ];
 
   return (
-    <div className="bg-black py-12">
+    <div className="bg-black py-12 ">
       <div className="container mx-auto">
         <h1 className="text-center text-3xl font-bold text-pink-500 mb-8"> Research Domains </h1>
         
@@ -59,192 +59,79 @@ export default Team;
 
 import AquaVR from "../../assets/RnD/AquaVR.mp4";
 import BodySync from "../../assets/RnD/BodySync.mp4";
-
 import RayMarching from "../../assets/RnD/RayMarching.mp4";
 
-
+const projects = [
+  {
+    id: 1,
+    title: "VIRTUAL REALITY",
+    name: "AquaVR",
+    description: "AquaVR is an immersive VR underwater adventure game designed for Meta Quest devices, built using Unity3D. Players explore marine ecosystems, uncover treasures, and solve environmental puzzles. The game utilizes gaze-based interactions and gesture controls for an immersive experience.",
+    video: AquaVR,
+    reverse: false, // Normal order (text first, video second)
+  },
+  {
+    id: 2,
+    title: "OPEN CV",
+    name: "BodySync Rush",
+    description: "A project utilizing Computer Vision to track player movements via a webcam and play an endless runner game similar to Temple Run.",
+    video: BodySync,
+    reverse: true, // Reverse order (video first, text second)
+  },
+  {
+    id: 3,
+    title: "SHADERS AND GRAPHICS",
+    name: "RayMarching",
+    description: "RayMarching is a graphics technique used for rendering complex 3D scenes, allowing for detailed volumetric effects such as fog, smoke, and fractals. It is commonly used in real-time rendering and shader development.",
+    video: RayMarching,
+    reverse: false, // Normal order
+  },
+  {
+    id: 4,
+    title: "MOTION TRACKING",
+    name: "Open CV Motion Tracking",
+    description: "This project utilizes motion capture technology to track real-time 3D body movements and replicate them onto a 3D avatar. Applications include gaming, virtual meetings, and fitness simulations.",
+    video: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1738504580/RPReplay_Final1730662135_ndi9vm.mp4",
+    reverse: true, // Reverse order
+  },
+];
 
 const Satellite = () => {
   return (
     <>
-      <section className="bg-black text-white py-10 border-b-2 border-white" id="satellite">
-        <div className="container bg-black ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-            <div className="space-y-3 xl:pr-36 p-4 rounded-2xl ">
-              <p
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-once='true'
-                className="text-pink-500 uppercase "
-              >
-               VIRTUAL REALITY
-              </p>
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-once='true'
-                className="uppercase text-5xl"
-              >
-               AquaVR
-              </h1>
-              <p data-aos="fade-up"  data-aos-once='true' className="text-lg m-1" data-aos-delay="700">
-AquaVR is an immersive VR underwater adventure game designed for Meta Quest devices, built using Unity3D. Players are transported to vibrant ocean environments, from colourful coral reefs to eerie shipwrecks, where they can explore marine ecosystems and engage in interactive learning. Gameplay includes quests to uncover hidden treasures, solve environmental puzzles, and interact with diverse marine life to understand their behaviours and habitats. Unity3D's tools were used to sculpt detailed underwater scenes, optimise performance for VR, and create intuitive, gaze-based interactions and gesture controls, ensuring a smooth and immersive user experience.
-              </p>
-              
-            </div>
-            <div data-aos="zoom-in" data-aos-once='true'>
-            <video
-              autoPlay
-              loop
-              muted
-              className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl space-y-3 p-4 "
-                        >
-              <source src={AquaVR} type="video/mp4" />
-            </video>
+      {projects.map((project) => (
+        <section key={project.id} className="bg-black text-white py-10">
+          <div className="container mx-auto max-w-screen-lg px-4">
+            <div className={`flex flex-col sm:flex-row ${project.reverse ? "sm:flex-row-reverse" : ""} items-center gap-8`}>
+              {/* Text Content */}
+              <div className="sm:w-1/2 p-6 space-y-4">
+                <p data-aos="fade-up" data-aos-delay="300" data-aos-once="true" className="text-pink-500 uppercase">
+                  {project.title}
+                </p>
+                <h1 data-aos="fade-up" data-aos-delay="500" data-aos-once="true" className="uppercase text-4xl sm:text-5xl">
+                  {project.name}
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="700" data-aos-once="true" className="text-lg">
+                  {project.description}
+                </p>
+              </div>
 
-
+              {/* Video */}
+              <div data-aos="zoom-in" data-aos-once="true" className="sm:w-1/2">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  className="w-full max-h-[350px] object-cover rounded-xl"
+                >
+                  <source src={project.video} type="video/mp4" />
+                </video>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-black text-white py-10 border-b-2 border-white" id="satellite">
-        <div className="container ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-            <div className="space-y-3 xl:pr-36 p-4 rounded-2xl ">
-              <p
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-once='true'
-                className="text-pink-500 uppercase "
-              >
-                OPEN CV 
-              </p>  
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-once='true'
-                className="uppercase text-5xl"
-              >
-               BodySync Rush
-              </h1>
-              <p data-aos="fade-up"  data-aos-once='true' className="text-lg m-1" data-aos-delay="700">
-              
-        A project which utilises Computer Vision techniques to use webcam to track the player’s body movements and play an endless runner’s game like Temple Run. 
-
-              </p>
-              
-            </div>
-            <div data-aos="zoom-in" data-aos-once='true'>
-            <video
-              autoPlay
-              loop
-              muted
-              className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl space-y-3 p-4 "
-                        >
-              <source src={BodySync} type="video/mp4" />
-            </video>
-
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-black text-white py-10 border-b-2 border-white" id="satellite">
-        <div className="container ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-            <div className="space-y-3 xl:pr-36 p-4 rounded-2xl ">
-              <p
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-once='true'
-                className="text-pink-500 uppercase "
-              >
-                Shaders and Graphics
-              </p>
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-once='true'
-                className="uppercase text-5xl"
-              >
-               RayMarching
-              </h1>
-              <p data-aos="fade-up"  data-aos-once='true' className="text-lg m-1" data-aos-delay="700">
-              
-RayMarching involves using a technique in computer graphics to render complex 3D scenes, especially for generating volumetric effects like fog, smoke, and fractals. Unlike traditional ray tracing, which calculates intersections with surfaces, ray marching steps through the scene in small increments to evaluate how light interacts with volumetric objects or distance fields. This allows for highly detailed, dynamic visuals that are computationally intensive but visually striking, often used in real-time rendering or shader development in environments like Unity or Unreal Engine.
-
-
-              </p>
-              
-            </div>
-            <div data-aos="zoom-in" data-aos-once='true'>
-            <video
-              autoPlay
-              loop
-              muted
-              className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl space-y-3 p-4 "
-                        >
-              <source src={RayMarching} type="video/mp4" />
-            </video>
-
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      <section className="bg-black text-white py-10 border-b-2 border-white" id="satellite">
-        <div className="container ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-            <div className="space-y-3 xl:pr-36 p-4 rounded-2xl ">
-              <p
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-once='true'
-                className="text-pink-500 uppercase "
-              >
-                Motion Tracking
-              </p>
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-once='true'
-                className="uppercase text-5xl"
-              >
-               Open CV motion tracking
-              </h1>
-              <p data-aos="fade-up"  data-aos-once='true' className="text-lg m-1" data-aos-delay="700">
-The project focuses on real-time 3D body tracking in Augmented Reality (AR), utilizing motion capture technology to track a user’s body movements, and accurately replicating the movements on a 3D avatar in real time. This enables applications in gaming, fitness, virtual meetings, and training simulations, offering immersive, interactive experiences by mirroring real-world actions in virtual environments.
-              </p>
-              
-            </div>
-            <div data-aos="zoom-in" data-aos-once='true'>
-            <video
-              autoPlay
-              loop
-              muted
-              className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl space-y-3 p-4 "
-                        >
-              <source src="https://res.cloudinary.com/dodlxtpvx/video/upload/v1738504580/RPReplay_Final1730662135_ndi9vm.mp4" type="video/mp4" />
-            </video>
-
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-
+        </section>
+      ))}
     </>
   );
 };
-
 

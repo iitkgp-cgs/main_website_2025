@@ -157,12 +157,6 @@ export default function Flip({ title, image, creator, description, players = "1-
               onClick={(e) => e.stopPropagation()}
               className="relative w-11/12 md:w-1/2 lg:w-1/3 rounded-lg shadow-lg overflow-hidden bg-black p-6 border border-pink-500 backdrop-blur-lg"
             >
-              <button
-                className="absolute right-4 top-4 text-pink-300 hover:bg-pink-900/20 p-2 rounded"
-                onClick={toggleModal}
-              >
-                <X className="h-5 w-5" />
-              </button>
 
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 {/* <img src={image || "/placeholder.svg"} alt={title} className="w- h-full object-cover" /> */}

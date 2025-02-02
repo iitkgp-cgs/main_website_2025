@@ -61,7 +61,7 @@ const Graphics = () => {
           style={{ backgroundImage: `url(${carouselGames[currentGame]})` }}
         >
           <div className="carousel-overlay">
-            <h1>Graphics Development</h1>
+            <h1>Graphics</h1>
           </div>
         </div>
       </div>
@@ -78,30 +78,30 @@ const Graphics = () => {
       }}
     > */}
       <div className="cards-section">
-        <h2 className="section-title">Explore Graphics</h2>
-        <div className="cards-container">
-          {graphics.map((game) => (
-            <div
-              key={game.id} 
-              className="w-[20vw] h-[20vw] bg-black border-2 border-white rounded-full shadow-lg transition-transform transform hover:scale-105"
-              data-aos="zoom-in"
-              data-aos-once="true"
-              onClick={() => handleCardClick(game)}
-            >
-              <div className="relative w-full h-full hover:scale-110 transition-transform duration-300">
-                <img
-                  src={game.image}
-                  alt={game.name}
-                  className="w-full h-full object-cover rounded-full"
-                />
-                <div className="absolute bottom-0 w-full bg-black bg-opacity-75 py-2 rounded-b-full">
-                  <h2 className="text-center text-lg text-white">{game.name}</h2>
-                </div>
-              </div>
-            </div>
-          ))}
+  <div className="cards-container flex flex-wrap justify-center gap-6">
+    {graphics.map((game) => (
+      <div
+        key={game.id}
+        className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 bg-black border-2 border-white rounded-full shadow-lg transition-transform transform hover:scale-110"
+        data-aos="zoom-in"
+        data-aos-once="true"
+        onClick={() => handleCardClick(game)}
+      >
+        <div className="relative w-full h-full transition-transform duration-300 hover:scale-110">
+          <img
+            src={game.image}
+            alt={game.name}
+            className="w-full h-full object-cover rounded-full"
+          />
+          <div className="absolute bottom-0 w-full bg-black bg-opacity-75 py-2 rounded-b-full">
+            <h2 className="text-center text-xl text-white">{game.name}</h2>
+          </div>
         </div>
       </div>
+    ))}
+  </div>
+</div>
+
       {/* </div> */}
 
 

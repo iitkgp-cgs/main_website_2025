@@ -167,7 +167,6 @@ export default function FlippingCard({ title, image, description, details }) {
                     <span>{achievements} Achievements</span>
                   </div> */}
                   <div className="flex items-center gap-2">
-                    <Gamepad2 className="h-4 w-4" />
                     <span>{details}</span>
                   </div>
                 </div>

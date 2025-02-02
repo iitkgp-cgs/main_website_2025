@@ -98,6 +98,7 @@ const Hero = () => {
               >
                 We, the Computer Graphics Society at IIT Kharagpur, are a passionate group of students dedicated to exploring the world of game development using Unity and Unreal engines. We specialize in graphics, animations, short films, and shader development, while actively researching cutting-edge technologies like virtual reality, augmented reality, and blockchain gaming. Our members regularly participate in national and international hackathons, pushing the boundaries of innovation and creativity.
               </p>
+              <a href="#services">
               <button
                 data-aos="fade-up"
                 data-aos-delay="500"
@@ -107,6 +108,7 @@ const Hero = () => {
               >
                 Explore..
               </button>
+              </a>
             </div>
           </div>
 
