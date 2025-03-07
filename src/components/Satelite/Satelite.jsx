@@ -1,5 +1,6 @@
 import React from "react";
 import featuredGame from "../../assets/parag.mp4";
+import featuredGame2 from "../../assets/HoopHavoc.mov";
 import featuredAnimation from "../../assets/animation.mp4";
 import featuredAnimation2 from "../../assets/animation2.mp4";
 
@@ -46,6 +47,41 @@ const Satellite = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-black text-white py-12 border-b-2 border-white" id="satellite">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Text Section */}
+            <div className="space-y-4 p-4">
+              <p data-aos="fade-up" data-aos-delay="300" data-aos-once="true" className="text-pink-500 uppercase">
+                FEATURED GAME
+              </p>
+              <h1 data-aos="fade-up" data-aos-delay="500" data-aos-once="true" className="uppercase text-4xl md:text-5xl font-bold">
+              Hoop Havoc 
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="700" data-aos-once="true" className="text-base md:text-lg leading-relaxed">
+              This is a fast-paced, high-energy basketball game that combines arcade-style action with competitive gameplay. Players engage in intense streetball matchups, showcasing flashy dribbles, gravity-defying dunks, and slick passes. The game features vibrant courts, dynamic lighting, and fluid character animations, making every match feel like a highlight reel.
+              </p>
+              <button
+                data-aos="fade-up"
+                data-aos-delay="900"
+                data-aos-once="true"
+                onClick={() => handleNavigation("Gamedev")}
+                className="bg-gradient-to-r from-pink-500 to-pink-700 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition duration-300"
+              >
+                Play Game...
+              </button>
+            </div>
+            {/* Video Section */}
+            <div data-aos="zoom-in">
+              <video autoPlay loop muted className="w-full max-h-[350px] object-cover rounded-lg shadow-lg">
+                <source src={featuredGame2} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Featured Animation Section */}
       <section className="bg-black text-white py-12 border-b-2 border-white" id="satellite">
