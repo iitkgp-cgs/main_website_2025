@@ -364,56 +364,22 @@
             "mailto:bsricharan14@gmail.com"
         ]
     },
-    {
-        "id": 24,
-        "name": "Ankit Anand",
-        "position": "Public Relations",
-        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506922/WhatsApp_Image_2024-09-30_at_00.41.11_-_Ankit_Anand_djfveq.jpg",
+   {
+       "id": 24,
+        "name": "Parag Chimankar",
+        "position": "Game Dev",
+        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738516675/Y19jcm9wLHdfNjM0LGhfNjM0LGdfYXV0bw_hkcuih.jpg",
         "socials": [
             "linkedin",
             "instagram",
             "email"
         ],
         "socialLinks": [
-            "www.linkedin.com/in/ankit-anand-159442295",
-            "https://www.instagram.com/ankitt.30",
-            "mailto:ankitanand3027@gmail.com"
+            "https://www.linkedin.com/in/parag-chimankar-a3b7511b2/?originalSubdomain=in",
+            "https://www.instagram.com/chimankarparag",
+            "mailto:chimankarparag@gmail.com"
         ]
-    },
-    {
-        "id": 25,
-        "name": "Kavya Nagar ",
-        "position": "Public Relations",
-        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506923/Untitled_design_1_-_Kavya_Nagar_jvidqi.jpg",
-        "socials": [
-            "linkedin",
-            "github",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "https://www.linkedin.com/in/kavya-nagar-a8b468288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "https://github.com/Kavyanagar04",
-            "https://www.instagram.com/Kavyanagar04",
-            "mailto:kavyanagar@kgpian.iitkgp.ac.in"
-        ]
-    },
-    {
-        "id": 26,
-        "name": "Atharv Salodkar ",
-        "position": "Content Creation",
-        "image": "https://res.cloudinary.com/dodlxtpvx/image/upload/v1738506928/20231230_095557_-_Atharv_Salodkar_b5unsn.jpg",
-        "socials": [
-            "linkedin",
-            "instagram",
-            "email"
-        ],
-        "socialLinks": [
-            "https://www.linkedin.com/in/atharv-salodkar-83963729b",
-            "https://www.instagram.com/atharvsalodkar",
-            "mailto:atharvsalodkar16@gmail.com"
-        ]
-    },
+   },
     {
         "id": 27,
         "name": "Rishabh Parihar",
