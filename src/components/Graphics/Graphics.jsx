@@ -194,7 +194,86 @@ const graphics = [
     description:
 'Our project focuses on developing a visually engaging commercial for a Feni company by creating captivating visuals that highlight the product’s qualities.',
   },
-  // You can add more objects here for additional sections
+  {
+    id: 7,
+    name: "Ludo Sci-Fi Dice",
+    video: "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742382855/0001-0230_n3tvib.mp4",
+    creators: ["Jyotipriyo Mondal"],
+    linkedin: ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    description: "The theme is a game of Ludo where 4 players are playing. The cube is transformed into a dice with neon light and Sci-Fi hologram effects."
+  },
+  {
+    "id": 9,
+    "name": "Toad's Custom Kart",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383053/video_bf0kk7.mp4",
+    "creators": ["Pratik Nair"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "Toad on his own kart, inspired by Mario Kart."
+  },
+  {
+    "id": 10,
+    "name": "The Cosmic Encounter",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383148/shourya_kumar_u5qv80.mp4",
+    "creators": ["Shourya Kumar"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "As evening falls over the city, a UFO comes from the moon and remains for a brief moment, casting a brilliant beam of light on the city before slowly ascending back toward the moon."
+  },
+  {
+    "id":11,
+    "name": "The Backrooms",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383386/final_main_nnqvkc.mp4",
+    "creators": ["Dev Raj"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A montage based on the backrooms, an urban legend where one may no-clip out of reality into a liminal space of maze-like rooms with eerie surroundings."
+  },
+  {
+    "id": 13,
+    "name": "Stormy Ocean Lighthouse",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383503/Rendered_Animation_ijlz9b.mp4",
+    "creators": ["Kritya Anand"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A stormy ocean with a big moon in the sky and a lighthouse between two cliffs, shining its light in the night."
+  },
+  {
+    "id": 14,
+    "name": "SciFi Portal Opening",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383640/Montage_j5cgr2.mov",
+    "creators": ["Rehan"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A SciFi portal opening animation."
+  },
+  {
+    "id": 15,
+    "name": "Blackhole in Space",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742383774/Animation_Final_w1qdls.mp4",
+    "creators": ["Anisha Yasmin"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A blackhole in space animation."
+  },
+  {
+    "id": 12,
+    "name": "Ancient Ruins Portal",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742384028/final_montage_qofda5.mp4",
+    "creators": ["Srijita Roy"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A portal in the midst of ancient ruins."
+  },
+  {
+    "id": 13,
+    "name": "Santa's Gift Factory",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742384098/Riddhima-montage_task_24fps_wekzv6.mkv",
+    "creators": ["Riddhima Suman"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "Santa's gift factory."
+  },
+  {
+    "id": 9,
+    "name": "Snowy Night Railway Station",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1742384202/railway_animation_pt_2_gsalmu.mp4",
+    "creators": ["Shaurya Choudhary"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A snowy night railway station animation."
+  },
 ];
 
 
