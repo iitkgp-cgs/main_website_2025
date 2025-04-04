@@ -274,6 +274,14 @@ const graphics = [
     "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
     "description": "A snowy night railway station animation."
   },
+  {
+    "id": 10,
+    "name": "The dooms portal",
+    "video": "https://res.cloudinary.com/dodlxtpvx/video/upload/v1743756642/0001-0229_beuir8.mkv",
+    "creators": [" Jyothish Tekkali"],
+    "linkedin": ["https://www.linkedin.com/company/computer-graphics-lab/posts/?feedView=all"],
+    "description": "A portal opening in a dark environment."
+  }
 ];
 
 
